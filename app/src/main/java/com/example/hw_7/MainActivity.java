@@ -89,7 +89,11 @@ public class MainActivity extends AppCompatActivity {
                         sum =  first*second;
                         break;
                     case "/":
-                        sum = first / second;
+                        if(second!=0) {
+                            sum = first / second;
+                        }else{
+                            Toast.makeText(MainActivity.this, "На ноль делить нельзя", Toast.LENGTH_SHORT).show();
+                        }
                         break;
 
                     case "%":
