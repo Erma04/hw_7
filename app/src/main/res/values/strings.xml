@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">hw_7</string>
     <string name="btn_zero">0</string>
     <string name="btn_one">1</string>
@@ -19,4 +19,14 @@
     <string name="btn_plus">+</string>
     <string name="btn_equal">=</string>
     <string name="btn_dot">.</string>
+    <string name="next">Next</string>
+
+    <array android:name="range_slider" name="Slider">
+        <item>35</item>
+        <item>90</item>
+    </array>
+
+
+
+
 </resources>
